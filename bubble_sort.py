@@ -13,3 +13,4 @@ def bubble_sort(list_):
     return seznam
 
 print(bubble_sort(seznam))
+#komentar
