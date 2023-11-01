@@ -10,9 +10,10 @@ def string_shift(text: str, key: int):
         if char >= "A" and char <= "Z":
             position = ord(char) - 65
             new_position = (position + key) % 26
-            result += chr(new_position)
+            result += chr(new_position+65)
         else:
             continue
     return result
 
-print(string_shift("Ahoj",3))
+print(string_shift("Ahoj511444",3))
+print(string_shift("DKRM",-3))
